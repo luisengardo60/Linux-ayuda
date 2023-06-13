@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/prueba1.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div>
+            <img src="../img/integracion1.PNG" alt="">
+            <img src="../img/crm2.PNG" alt="">
+            <img src="../img/crm2.PNG" alt="">
+        </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="../js/new.js"></script>
+    <script>
+        $(function(){
+            $(".slides").slidesjs({
+                play: {
+                    active: true,
+                    // [boolean] Generate the play and stop buttons
+                    // You cannot use your own button. Sorry
+                    effect: "slide",
+                    // [string] Can be either "slide" or "fu"
+                    interval: 5000,
+                    // [number] Time spent on each slide in milliseconds
+                    auto: false,
+                    // [boolean] start playing the slideshow on load
+                    swap: true,
+                    // [boolean] show/hide stop and play buttons
+                    pauseOnHover: false,
+                    // [boolean] pause a playing slideshow on hover
+                    restartDelay: 2500
+                    // [number] restart dealy on inactive slideshow   
+                }
+             });
+            }); 
+    </script>  
+</body>
+</html>
