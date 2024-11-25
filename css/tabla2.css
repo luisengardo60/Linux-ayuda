@@ -1,5 +1,4 @@
-body { background-image: url(../img/bookwood.jpg);
-        background-repeat: no-repeat; background-size: cover;}
+body { background: url(../../Linux-ayuda/img/bookwood.jpg) no-repeat center center fixed;}
 
 article a {color: white; display: inline-block;
              background-color: blue; box-sizing: content-box;
